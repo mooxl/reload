@@ -1,6 +1,6 @@
 import type { Page } from "cms/types";
 import payload from "payload";
-import { cache } from "cache";
+import { cache } from "./lru.server";
 
 export const getPage = async (route: string): Promise<Page> => {
   if (!cache.has(route)) {
