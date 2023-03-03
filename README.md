@@ -13,4 +13,4 @@ To get started with Reload, you'll need to have Docker and NPM || Yarn || PNPM i
 1. Install the dependencies: `yarn`
 1. Start the app: `yarn dev`
 
-The site will be served at http://localhost:3000 and the Directus will be available at http://localhost:3000/admin.
+The site will be served at http://localhost:3000 and the Payload will be available at http://localhost:3000/admin.
